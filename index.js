@@ -14,7 +14,7 @@ const MONGO_URL = process.env.MONGO_URL;
 
 const client = new MongoClient(MONGO_URL);
 await client.connect();
-console.log("Mongodb is connected Successfully 🎉🎊✨");
+console.log("Mongodb is connected Successfully 🎊✨");
 
 //middlewares
 app.use(express.json());
